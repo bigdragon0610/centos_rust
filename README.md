@@ -6,3 +6,8 @@ yum install -y gcc
 
 docker start -i my-centos-container
 ```
+
+ビルド時、openssl周りでエラー
+```sh
+yum install openssl openssl-devel
+```
